@@ -1,0 +1,76 @@
+.row{
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.logo__wrapper--img{
+  max-width: 300px;
+}
+
+.logo__img{
+  width: 100%;
+}
+
+.account__management{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  margin: 0 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 12px 20px;
+  transition: opacity 300ms ease;
+}
+
+.btn:hover{
+  opacity: 0.5;
+}
+
+.login__btn{
+  background-color: white;
+  border: 1px solid lightgrey;
+  color: purple;
+}
+
+.register__btn{
+  background-color: purple;
+  border: 1px solid purple;
+  color: white
+}
+
+.btn__loading{
+  margin: 0 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 12px 20px;
+  background-color: grey; 
+  color: grey;
+  border: 1px solid grey;
+}
+
+.hide__btn{
+  display: none;
+}
+
+.circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  border: 1px solid purple;
+  background-color: purple;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transition: opacity 300ms ease;
+}
+
+.circle:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
